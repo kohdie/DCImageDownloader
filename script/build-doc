@@ -1,0 +1,2 @@
+appledoc .
+scss ./Documents/html/scss/style.scss ./Documents/html/css/style.css

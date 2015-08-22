@@ -1,0 +1,472 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		469FD5501B8807FC0020811C /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 469FD54F1B8807FC0020811C /* main.m */; };
+		469FD5531B8807FC0020811C /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 469FD5521B8807FC0020811C /* AppDelegate.m */; };
+		469FD5561B8807FC0020811C /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 469FD5551B8807FC0020811C /* ViewController.m */; };
+		469FD5591B8807FC0020811C /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 469FD5571B8807FC0020811C /* Main.storyboard */; };
+		469FD55B1B8807FC0020811C /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 469FD55A1B8807FC0020811C /* Images.xcassets */; };
+		469FD55E1B8807FC0020811C /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = 469FD55C1B8807FC0020811C /* LaunchScreen.xib */; };
+		469FD56A1B8807FD0020811C /* DCImageDownloaderTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 469FD5691B8807FD0020811C /* DCImageDownloaderTests.m */; };
+		469FD5791B88094C0020811C /* KVOImageObject.m in Sources */ = {isa = PBXBuildFile; fileRef = 469FD5781B88094C0020811C /* KVOImageObject.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		469FD5641B8807FD0020811C /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 469FD5421B8807FC0020811C /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 469FD5491B8807FC0020811C;
+			remoteInfo = DCImageDownloader;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		469FD54A1B8807FC0020811C /* DCImageDownloader.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = DCImageDownloader.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		469FD54E1B8807FC0020811C /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		469FD54F1B8807FC0020811C /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		469FD5511B8807FC0020811C /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		469FD5521B8807FC0020811C /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		469FD5541B8807FC0020811C /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		469FD5551B8807FC0020811C /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		469FD5581B8807FC0020811C /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		469FD55A1B8807FC0020811C /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		469FD55D1B8807FC0020811C /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/LaunchScreen.xib; sourceTree = "<group>"; };
+		469FD5631B8807FD0020811C /* DCImageDownloaderTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = DCImageDownloaderTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		469FD5681B8807FD0020811C /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		469FD5691B8807FD0020811C /* DCImageDownloaderTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = DCImageDownloaderTests.m; sourceTree = "<group>"; };
+		469FD5771B88094C0020811C /* KVOImageObject.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = KVOImageObject.h; sourceTree = "<group>"; };
+		469FD5781B88094C0020811C /* KVOImageObject.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = KVOImageObject.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		469FD5471B8807FC0020811C /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		469FD5601B8807FD0020811C /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		469FD5411B8807FC0020811C = {
+			isa = PBXGroup;
+			children = (
+				469FD54C1B8807FC0020811C /* DCImageDownloader */,
+				469FD5661B8807FD0020811C /* DCImageDownloaderTests */,
+				469FD54B1B8807FC0020811C /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		469FD54B1B8807FC0020811C /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				469FD54A1B8807FC0020811C /* DCImageDownloader.app */,
+				469FD5631B8807FD0020811C /* DCImageDownloaderTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		469FD54C1B8807FC0020811C /* DCImageDownloader */ = {
+			isa = PBXGroup;
+			children = (
+				469FD5741B8808520020811C /* Classes */,
+				469FD5571B8807FC0020811C /* Main.storyboard */,
+				469FD55A1B8807FC0020811C /* Images.xcassets */,
+				469FD55C1B8807FC0020811C /* LaunchScreen.xib */,
+				469FD54D1B8807FC0020811C /* Supporting Files */,
+			);
+			path = DCImageDownloader;
+			sourceTree = "<group>";
+		};
+		469FD54D1B8807FC0020811C /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				469FD54E1B8807FC0020811C /* Info.plist */,
+				469FD54F1B8807FC0020811C /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		469FD5661B8807FD0020811C /* DCImageDownloaderTests */ = {
+			isa = PBXGroup;
+			children = (
+				469FD5691B8807FD0020811C /* DCImageDownloaderTests.m */,
+				469FD5671B8807FD0020811C /* Supporting Files */,
+			);
+			path = DCImageDownloaderTests;
+			sourceTree = "<group>";
+		};
+		469FD5671B8807FD0020811C /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				469FD5681B8807FD0020811C /* Info.plist */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		469FD5731B8808160020811C /* KVOObjects */ = {
+			isa = PBXGroup;
+			children = (
+				469FD5771B88094C0020811C /* KVOImageObject.h */,
+				469FD5781B88094C0020811C /* KVOImageObject.m */,
+			);
+			name = KVOObjects;
+			path = Classes/KVOObjects;
+			sourceTree = "<group>";
+		};
+		469FD5741B8808520020811C /* Classes */ = {
+			isa = PBXGroup;
+			children = (
+				469FD5761B8808800020811C /* App */,
+				469FD5751B88086A0020811C /* ViewControllers */,
+				469FD5731B8808160020811C /* KVOObjects */,
+			);
+			name = Classes;
+			sourceTree = "<group>";
+		};
+		469FD5751B88086A0020811C /* ViewControllers */ = {
+			isa = PBXGroup;
+			children = (
+				469FD5541B8807FC0020811C /* ViewController.h */,
+				469FD5551B8807FC0020811C /* ViewController.m */,
+			);
+			name = ViewControllers;
+			path = Classes/ViewControllers;
+			sourceTree = "<group>";
+		};
+		469FD5761B8808800020811C /* App */ = {
+			isa = PBXGroup;
+			children = (
+				469FD5511B8807FC0020811C /* AppDelegate.h */,
+				469FD5521B8807FC0020811C /* AppDelegate.m */,
+			);
+			name = App;
+			path = Classes/App;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		469FD5491B8807FC0020811C /* DCImageDownloader */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 469FD56D1B8807FD0020811C /* Build configuration list for PBXNativeTarget "DCImageDownloader" */;
+			buildPhases = (
+				469FD5461B8807FC0020811C /* Sources */,
+				469FD5471B8807FC0020811C /* Frameworks */,
+				469FD5481B8807FC0020811C /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = DCImageDownloader;
+			productName = DCImageDownloader;
+			productReference = 469FD54A1B8807FC0020811C /* DCImageDownloader.app */;
+			productType = "com.apple.product-type.application";
+		};
+		469FD5621B8807FD0020811C /* DCImageDownloaderTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 469FD5701B8807FD0020811C /* Build configuration list for PBXNativeTarget "DCImageDownloaderTests" */;
+			buildPhases = (
+				469FD55F1B8807FD0020811C /* Sources */,
+				469FD5601B8807FD0020811C /* Frameworks */,
+				469FD5611B8807FD0020811C /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				469FD5651B8807FD0020811C /* PBXTargetDependency */,
+			);
+			name = DCImageDownloaderTests;
+			productName = DCImageDownloaderTests;
+			productReference = 469FD5631B8807FD0020811C /* DCImageDownloaderTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		469FD5421B8807FC0020811C /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0610;
+				ORGANIZATIONNAME = DevCafe;
+				TargetAttributes = {
+					469FD5491B8807FC0020811C = {
+						CreatedOnToolsVersion = 6.1;
+					};
+					469FD5621B8807FD0020811C = {
+						CreatedOnToolsVersion = 6.1;
+						TestTargetID = 469FD5491B8807FC0020811C;
+					};
+				};
+			};
+			buildConfigurationList = 469FD5451B8807FC0020811C /* Build configuration list for PBXProject "DCImageDownloader" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 469FD5411B8807FC0020811C;
+			productRefGroup = 469FD54B1B8807FC0020811C /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				469FD5491B8807FC0020811C /* DCImageDownloader */,
+				469FD5621B8807FD0020811C /* DCImageDownloaderTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		469FD5481B8807FC0020811C /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				469FD5591B8807FC0020811C /* Main.storyboard in Resources */,
+				469FD55E1B8807FC0020811C /* LaunchScreen.xib in Resources */,
+				469FD55B1B8807FC0020811C /* Images.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		469FD5611B8807FD0020811C /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		469FD5461B8807FC0020811C /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				469FD5561B8807FC0020811C /* ViewController.m in Sources */,
+				469FD5791B88094C0020811C /* KVOImageObject.m in Sources */,
+				469FD5531B8807FC0020811C /* AppDelegate.m in Sources */,
+				469FD5501B8807FC0020811C /* main.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		469FD55F1B8807FD0020811C /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				469FD56A1B8807FD0020811C /* DCImageDownloaderTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		469FD5651B8807FD0020811C /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 469FD5491B8807FC0020811C /* DCImageDownloader */;
+			targetProxy = 469FD5641B8807FD0020811C /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		469FD5571B8807FC0020811C /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				469FD5581B8807FC0020811C /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		469FD55C1B8807FC0020811C /* LaunchScreen.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				469FD55D1B8807FC0020811C /* Base */,
+			);
+			name = LaunchScreen.xib;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		469FD56B1B8807FD0020811C /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 6.0;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		469FD56C1B8807FD0020811C /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 6.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		469FD56E1B8807FD0020811C /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = DCImageDownloader/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		469FD56F1B8807FD0020811C /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = DCImageDownloader/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		469FD5711B8807FD0020811C /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+				);
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = DCImageDownloaderTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/DCImageDownloader.app/DCImageDownloader";
+			};
+			name = Debug;
+		};
+		469FD5721B8807FD0020811C /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = DCImageDownloaderTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/DCImageDownloader.app/DCImageDownloader";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		469FD5451B8807FC0020811C /* Build configuration list for PBXProject "DCImageDownloader" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				469FD56B1B8807FD0020811C /* Debug */,
+				469FD56C1B8807FD0020811C /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		469FD56D1B8807FD0020811C /* Build configuration list for PBXNativeTarget "DCImageDownloader" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				469FD56E1B8807FD0020811C /* Debug */,
+				469FD56F1B8807FD0020811C /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		469FD5701B8807FD0020811C /* Build configuration list for PBXNativeTarget "DCImageDownloaderTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				469FD5711B8807FD0020811C /* Debug */,
+				469FD5721B8807FD0020811C /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 469FD5421B8807FC0020811C /* Project object */;
+}

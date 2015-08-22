@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+    <key>--company-id</key>
+    <string>com.devcafe</string>
+    <key>--ignore</key>
+    <array>
+        <string>ThirdParty</string>
+        <string>Libraries</string>
+        <string>Frameworks</string>
+        <string>Testing</string>
+    </array>
+    <key>--logformat</key>
+    <integer>1</integer>
+    <key>--print-settings</key>
+    <true/>
+    <key>--project-company</key>
+    <string>DevCafe</string>
+    <key>--project-name</key>
+    <string>DevCafe::ImageDownloader</string>
+    <key>--repeat-first-par</key>
+    <false/>
+    <key>--verbose</key>
+    <string>3</string>
+    <key>--output</key>
+    <string>./Documents/</string>
+    <key>--create-html</key>
+    <true/>
+    <key>--create-docset</key>
+    <false/>
+</dict>
+</plist>
